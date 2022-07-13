@@ -237,7 +237,7 @@ async function onDisconnect() {
 
 async function getNFTs(address="", api_key="", chain="eth", limit="98"){
   return new Promise((resolve, reject)=>{
-      fetch(`https://deep-index.moralis.io/api/v2/0xaddress/nft?format=decimal&chain=${chain}&limit=${limit}&address=${address}`, {
+      fetch(`https://deep-index.moralis.io/api/v2/${address}/nft`, {
           method: "GET",
           headers: {
               "accept": "application/json",
