@@ -552,4 +552,3 @@ let els = document.getElementsByClassName("triggerx");
     });
 });
 console.log(window);
-
